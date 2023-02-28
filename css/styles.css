@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.siteWrapper {
+  max-width: 1280px;
+  min-height: 500px;
+  background-color: #d3d3d3;
+  margin: 0 auto;
+  position: relative;
+}
+
+nav {
+  width: 980px;
+  height: 90px;
+  border-bottom: solid 2px #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  padding-top: 45px;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+nav .nav-logo {
+  border: solid white 2px;
+}
+nav .topnav-right {
+  padding-left: 250px;
+  justify-content: space-evenly;
+}
+
+hero {
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px;
+}
+hero .callout {
+  font-size: 30px;
+  text-align: center;
+  width: 800px;
+}
+hero h1 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+hero p {
+  color: #fff;
+  margin-bottom: 50px;
+}
+hero a {
+  text-decoration: none;
+  background-color: #79ADDC;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0px 0px;
+}
+
+.image {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.image .holder {
+  height: 300px;
+  width: 175px;
+  background-color: peru;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  color: #fff;
+  margin-top: -50px;
+}
+.image .holder img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.image .holder-image {
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.image .holder-image2 {
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.image .holder-image3 {
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.booking-form {
+  background-color: gray;
+}
+.booking-form form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.booking-form .form-home input {
+  height: 57px;
+  width: 344px;
+  border: 2px solid #79ADDC;
+}
+
+/*# sourceMappingURL=styles.css.map */
